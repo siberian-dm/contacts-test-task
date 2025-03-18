@@ -1,5 +1,7 @@
 import { Typography } from 'antd';
 
+import '../model';
+
 export const MainPage: React.FC = () => {
   return (
     <div>
