@@ -8,6 +8,7 @@ export default defineConfig({
   server: {
     host: 'localhost',
     port: 3030,
+    allowedHosts: true,
   },
   build: {
     sourcemap: false,
