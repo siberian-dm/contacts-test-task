@@ -33,7 +33,7 @@ export type GetContactListParams = {
   name?: string;
   _page?: number;
   _limit?: number;
-  _sort?: 'id' | 'fullName';
+  _sort?: 'id' | 'full_name' | 'email' | 'phone';
   _order?: 'asc' | 'desc';
   q?: string;
 };
