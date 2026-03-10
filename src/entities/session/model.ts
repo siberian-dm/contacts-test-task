@@ -88,7 +88,7 @@ sample({
 
 sample({
   clock: loggedOut,
-  target: [removeUserFromLocalStorageFx, removeTokensFromStorageFx],
+  target: [removeUserFromLocalStorageFx, removeTokensFromStorageFx, routes.signOut.open],
 });
 
 sample({

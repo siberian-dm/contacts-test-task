@@ -6,7 +6,7 @@ export type TagResource = {
 export type ContactResource = {
   id: number;
   avatar?: string;
-  full_Name: string;
+  full_name: string;
   phone: string;
   email: string;
   tags?: TagResource[];
