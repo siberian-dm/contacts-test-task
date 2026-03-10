@@ -6,7 +6,7 @@ export type TagResource = {
 export type ContactResource = {
   id: number;
   avatar?: string;
-  full_Name: string;
+  full_name: string;
   phone: string;
   email: string;
   tags?: TagResource[];
@@ -48,7 +48,7 @@ export type CreateContactParams = {
 
 export type UpdateContactParams = {
   id: number;
-  data: Partial<ContactResource>;
+  data: ContactResource;
 };
 
 export type DeleteContactParams = {
