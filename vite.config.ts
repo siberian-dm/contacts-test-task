@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths(), svgr()],
   server: {
     host: '0.0.0.0',
-    port: 3030,
+    port: 3031,
     allowedHosts: true,
   },
   build: {
